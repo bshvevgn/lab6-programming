@@ -4,43 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8164e104-da4c-4969-b797-7a6d14104495" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main/java/commands/Invoker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shared/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shared/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shared/src/main/java/connection/ChannelConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shared/src/main/java/exceptions/InvalidResponseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shared/src/main/java/packages/Packet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shared/src/main/java/packages/PacketManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shared/src/main/java/requests/RequestBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shared/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shared/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shared/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shared/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="8164e104-da4c-4969-b797-7a6d14104495" name="Changes" comment="first commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,11 +89,34 @@
       <option name="presentableId" value="Default" />
       <updated>1683897119724</updated>
       <workItem from="1683897121356" duration="13231000" />
-      <workItem from="1683980834034" duration="14061000" />
+      <workItem from="1683980834034" duration="14390000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1684521332952</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684521332953</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
