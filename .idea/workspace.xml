@@ -4,11 +4,336 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8164e104-da4c-4969-b797-7a6d14104495" name="Changes" comment="first commit" />
+    <list default="true" id="8164e104-da4c-4969-b797-7a6d14104495" name="Changes" comment="files">
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/data/script.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/exceptions/InvalidArgsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/artifacts/lab5prog222_jar/lab5prog222.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/data/Parser$XMLHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/data/Parser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/data/bands.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/data/old/BaseReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/data/old/NewParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/data/script.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/exceptions/InvalidArgsException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/logic/Loader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/logic/clientLogic/ConsoleManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/logic/clientLogic/IOManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/logic/clientLogic/Request.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/logic/clientLogic/RequestBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/logic/clientLogic/ResponseParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/logic/clientLogic/connection/Connection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/logic/clientLogic/connection/ConnectionManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/logic/clientLogic/connection/DatagramsReceiver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/logic/clientLogic/connection/DatagramsSender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/logic/serverLogic/CommandType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/logic/serverLogic/Response.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/parameters/Coordinates.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/parameters/MusicBand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/parameters/MusicGenre.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/parameters/Studio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/tools/CollectionTools.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/tools/CommandChecker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/tools/CommandTools.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/tools/ConsoleTools.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/validators/GenreValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/validators/NOPValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/validators/NameValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/validators/Validator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/validators/coordinatesValidators/XCoordinateValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/client/validators/coordinatesValidators/YCoordinateValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5-programming/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5-programming/commands/CommandRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5-programming/commands/consoleCommands/Add.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5-programming/commands/consoleCommands/Average.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5-programming/commands/consoleCommands/Clear.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5-programming/commands/consoleCommands/Command.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5-programming/commands/consoleCommands/Dev.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5-programming/commands/consoleCommands/Execute.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5-programming/commands/consoleCommands/Exit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5-programming/commands/consoleCommands/Filter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5-programming/commands/consoleCommands/Help.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5-programming/commands/consoleCommands/History.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5-programming/commands/consoleCommands/Info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5-programming/commands/consoleCommands/PrintGenre.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5-programming/commands/consoleCommands/RemoveById.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5-programming/commands/consoleCommands/Reorder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5-programming/commands/consoleCommands/Save.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5-programming/commands/consoleCommands/Show.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5-programming/commands/consoleCommands/Shuffle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5-programming/commands/consoleCommands/Sort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5-programming/commands/consoleCommands/UpdateById.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5-programming/data/Parser$XMLHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5-programming/data/Parser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5-programming/data/input.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5-programming/data/script.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5-programming/exceptions/InvalidArgsException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5-programming/parameters/Coordinates.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5-programming/parameters/MusicBand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5-programming/parameters/MusicGenre.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5-programming/parameters/Studio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/commands/Invoker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/commands/Receiver$AddOperations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/commands/Receiver$ClearOperations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/commands/Receiver$RemoveOperations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/commands/Receiver$SortOperations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/commands/Receiver$UpdateOperations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/commands/Receiver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/commands/consoleCommands/Add.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/commands/consoleCommands/Average.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/commands/consoleCommands/Clear.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/commands/consoleCommands/Command.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/commands/consoleCommands/Execute.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/commands/consoleCommands/Exit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/commands/consoleCommands/Filter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/commands/consoleCommands/Help.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/commands/consoleCommands/History.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/commands/consoleCommands/Info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/commands/consoleCommands/PrintGenre.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/commands/consoleCommands/RemoveById.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/commands/consoleCommands/Reorder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/commands/consoleCommands/Save.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/commands/consoleCommands/Show.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/commands/consoleCommands/Shuffle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/commands/consoleCommands/Sort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/commands/consoleCommands/UpdateById.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/data/Parser$XMLHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/data/Parser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/data/bands.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/data/old/BaseReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/data/old/NewParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/data/script.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/exceptions/InvalidArgsException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/logic/Loader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/parameters/Coordinates.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/parameters/MusicBand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/parameters/MusicGenre.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/parameters/Studio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/validators/GenreValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/validators/NOPValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/validators/NameValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/validators/Validator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/validators/coordinatesValidators/XCoordinateValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/lab5prog222/validators/coordinatesValidators/YCoordinateValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/commands/Invoker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/commands/Receiver$AddOperations 2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/commands/Receiver$ClearOperations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/commands/Receiver$RemoveOperations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/commands/Receiver$SortOperations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/commands/Receiver$UpdateOperations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/commands/Receiver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/commands/consoleCommands/Add.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/commands/consoleCommands/Average.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/commands/consoleCommands/Clear.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/commands/consoleCommands/Command.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/commands/consoleCommands/Execute.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/commands/consoleCommands/Exit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/commands/consoleCommands/Filter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/commands/consoleCommands/Help.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/commands/consoleCommands/History.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/commands/consoleCommands/Info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/commands/consoleCommands/PrintGenre.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/commands/consoleCommands/RemoveById.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/commands/consoleCommands/Reorder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/commands/consoleCommands/Save.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/commands/consoleCommands/Show.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/commands/consoleCommands/Shuffle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/commands/consoleCommands/Sort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/commands/consoleCommands/Update.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/data/Parser$XMLHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/data/Parser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/data/bands.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/data/old/BaseReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/data/old/NewParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/data/script.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/exceptions/InvalidArgsException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/logic/Loader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/logic/RequestParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/logic/ResponseBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/logic/clientLogic/Request.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/logic/serverLogic/CommandChecker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/logic/serverLogic/CommandType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/logic/serverLogic/CommandsSender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/logic/serverLogic/Connection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/logic/serverLogic/ConnectionManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/logic/serverLogic/DatagramsReceiver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/logic/serverLogic/DatagramsSender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/logic/serverLogic/IOManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/logic/serverLogic/Response.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/parameters/Coordinates.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/parameters/MusicBand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/parameters/MusicGenre.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/out/production/server/parameters/Studio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/tools/CollectionTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/tools/CommandChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/tools/CommandTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/validators/GenreValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/validators/NOPValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/validators/NameValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/validators/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/validators/coordinatesValidators/XCoordinateValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/validators/coordinatesValidators/YCoordinateValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/commands/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/commands/consoleCommands/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/commands/consoleCommands/Average.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/commands/consoleCommands/Clear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/commands/consoleCommands/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/commands/consoleCommands/Execute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/commands/consoleCommands/Exit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/commands/consoleCommands/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/commands/consoleCommands/Help.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/commands/consoleCommands/History.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/commands/consoleCommands/Info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/commands/consoleCommands/PrintGenre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/commands/consoleCommands/RemoveById.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/commands/consoleCommands/Reorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/commands/consoleCommands/Save.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/commands/consoleCommands/Show.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/commands/consoleCommands/Shuffle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/commands/consoleCommands/Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/commands/consoleCommands/Update.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/data/Parser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/data/bands.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/data/old/BaseReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/data/old/NewParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/data/script.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/exceptions/InvalidArgsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/logic/Loader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/logic/serverLogic/CommandChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/logic/serverLogic/CommandsSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/artifacts/lab5prog222_jar/lab5prog222.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5-programming/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5-programming/commands/CommandRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5-programming/commands/consoleCommands/Add.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5-programming/commands/consoleCommands/Average.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5-programming/commands/consoleCommands/Clear.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5-programming/commands/consoleCommands/Command.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5-programming/commands/consoleCommands/Dev.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5-programming/commands/consoleCommands/Execute.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5-programming/commands/consoleCommands/Exit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5-programming/commands/consoleCommands/Filter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5-programming/commands/consoleCommands/Help.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5-programming/commands/consoleCommands/History.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5-programming/commands/consoleCommands/Info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5-programming/commands/consoleCommands/PrintGenre.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5-programming/commands/consoleCommands/RemoveById.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5-programming/commands/consoleCommands/Reorder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5-programming/commands/consoleCommands/Save.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5-programming/commands/consoleCommands/Show.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5-programming/commands/consoleCommands/Shuffle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5-programming/commands/consoleCommands/Sort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5-programming/commands/consoleCommands/UpdateById.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5-programming/data/Parser$XMLHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5-programming/data/Parser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5-programming/data/input.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5-programming/data/script.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5-programming/exceptions/InvalidArgsException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5-programming/parameters/Coordinates.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5-programming/parameters/MusicBand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5-programming/parameters/MusicGenre.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5-programming/parameters/Studio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/commands/Invoker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/commands/Receiver$AddOperations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/commands/Receiver$ClearOperations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/commands/Receiver$RemoveOperations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/commands/Receiver$SortOperations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/commands/Receiver$UpdateOperations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/commands/Receiver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/commands/consoleCommands/Add.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/commands/consoleCommands/Average.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/commands/consoleCommands/Clear.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/commands/consoleCommands/Command.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/commands/consoleCommands/Execute.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/commands/consoleCommands/Exit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/commands/consoleCommands/Filter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/commands/consoleCommands/Help.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/commands/consoleCommands/History.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/commands/consoleCommands/Info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/commands/consoleCommands/PrintGenre.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/commands/consoleCommands/RemoveById.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/commands/consoleCommands/Reorder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/commands/consoleCommands/Save.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/commands/consoleCommands/Show.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/commands/consoleCommands/Shuffle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/commands/consoleCommands/Sort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/commands/consoleCommands/UpdateById.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/data/Parser$XMLHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/data/Parser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/data/bands.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/data/old/BaseReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/data/old/NewParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/data/script.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/exceptions/InvalidArgsException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/logic/Loader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/parameters/Coordinates.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/parameters/MusicBand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/parameters/MusicGenre.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/parameters/Studio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/validators/GenreValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/validators/NOPValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/validators/NameValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/validators/Validator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/validators/coordinatesValidators/XCoordinateValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/out/production/lab5prog222/validators/coordinatesValidators/YCoordinateValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shared/src/main/java/connection/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shared/src/main/java/parameters/Coordinates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shared/src/main/java/parameters/MusicBand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shared/src/main/java/parameters/MusicGenre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shared/src/main/java/parameters/Studio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shared/src/main/java/requests/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shared/src/main/java/requests/RequestHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shared/src/main/java/responces/CommandType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shared/src/main/java/responces/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shared/src/main/java/responces/ResponseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shared/src/main/java/responces/ResponseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shared/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-05/app-05-21-2023-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-05/app-05-21-2023-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-05/app-05-23-2023-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-05/app-05-23-2023-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-05/app-05-24-2023-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-05/app-05-24-2023-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-05/app-05-26-2023-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-05/app-05-26-2023-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/clientLog.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/serverLog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/commands/Invoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/commands/Invoker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/src/main/java/requests/RequestBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/src/main/java/requests/RequestBuilder.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="module" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -20,21 +345,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="ProjectId" id="2Ph6lWmUjILXX3cMzH4fcY45ka0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "corretto-16",
-    "last_opened_file_path": "/Users/vedz.evgn/Documents/Программирование/lab6/Shared/src/main/java/requests",
+    "last_opened_file_path": "/Users/vedz.evgn/Documents/Программирование/lab6/Shared/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -48,6 +383,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Shared/src/main/resources" />
+      <recent name="$PROJECT_DIR$/Client/src/main/resources" />
       <recent name="$PROJECT_DIR$/Shared/src/main/java/requests" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -75,8 +412,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.server" />
         <item itemvalue="Application.client" />
+        <item itemvalue="Application.server" />
       </list>
     </recent_temporary>
   </component>
@@ -89,7 +426,8 @@
       <option name="presentableId" value="Default" />
       <updated>1683897119724</updated>
       <workItem from="1683897121356" duration="13231000" />
-      <workItem from="1683980834034" duration="14390000" />
+      <workItem from="1683980834034" duration="21229000" />
+      <workItem from="1684671049312" duration="23259000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1684521332952</created>
@@ -98,7 +436,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684521332953</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1684521548110</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684521548110</updated>
+    </task>
+    <task id="LOCAL-00003" summary="files">
+      <created>1684521792000</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684521792000</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,7 +468,573 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="files" />
+    <option name="LAST_COMMIT_MESSAGE" value="files" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>49</line>
+          <properties class="tools.ConsoleTools" method="executeScript">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>73</line>
+          <properties class="logic.ConsoleManager" method="sendRequest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>108</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>114</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>117</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/tools/ConsoleTools.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Client/src/main/java/logic/ConsoleManager.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

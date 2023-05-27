@@ -5,6 +5,8 @@ import commands.consoleCommands.*;
 import connection.Connection;
 import connection.DatagramConnection;
 import exceptions.InvalidArgsException;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import responces.ResponseBuilder;
 
 import parameters.MusicBand;
@@ -33,9 +35,9 @@ public class Invoker {
     public static Connection manager;
     public static ResponseBuilder builder;
 
-    public Invoker(String command, String[] arguments, Receiver receiver, Connection manager, ResponseBuilder builder) {
-        this.commandWord = command;
-        this.arguments = arguments;
+    private static final Logger logger = LogManager.getLogger();
+
+    public Invoker(Receiver receiver, Connection manager, ResponseBuilder builder) {
         this.manager = manager;
         this.builder = builder;
         commands.put("help", new Help(receiver));
@@ -57,6 +59,7 @@ public class Invoker {
         commands.put("print_field_descending_genre", new PrintGenre(receiver));
         commands.put("save", new Save(receiver));
         commands.put("помогите", new Help(receiver));
+        logger.info("Invoker инициализирован.");
     }
 
     static ArrayList<String> lastCommands = new ArrayList<String>();
@@ -72,7 +75,8 @@ public class Invoker {
      *This class has a static method push which reads commands
      *and executes them.
      */
-    public static void push(ArrayList<MusicBand> list, String path, boolean isScriptRunning, Object object) throws InvalidArgsException, IOException {
+    public static void push(String path, boolean isScriptRunning, Object object) throws InvalidArgsException, IOException {
+        logger.info("Проверка команды.");
         if(commands.containsKey(commandWord)) {
             if(lastCommands.size() == 15) {
                 lastCommands.remove(0);
@@ -82,28 +86,45 @@ public class Invoker {
             }
             command = commands.get(commandWord);
             try {
-                    if (command.getArgs().length == arguments.length) {
-                        command.execute(arguments, path, isScriptRunning, object);
-                    } else {
-                        String commandArgs = "";
-                        for(int i = 0; i <= command.getArgs().length-1; i++) {
-                            if(i != command.getArgs().length-1) {
-                                commandArgs = commandArgs + command.getArgs()[i] + ", ";
-                            } else {
-                                commandArgs = commandArgs + command.getArgs()[i];
-                            }
-                        }
-                        manager.send(builder.createResponse("Количество аргументов некорректно. Введено: " + arguments.length + ", необходимо: " + command.getArgs().length + " (" + commandArgs + ").", false, true));
-                        System.out.println("Количество аргументов некорректно. Введено: " + arguments.length + ", необходимо: " + command.getArgs().length + " (" + commandArgs + ").");
-                    }
+                    logger.info("Запуск выполнения команды.");
+                    command.execute(arguments, path, isScriptRunning, object);
                 } catch (ClassNotFoundException e) {
                 throw new RuntimeException(e);
             }
         } else {
             System.out.print("Неизвестная команда " + commandWord + ". Введите help для просмотра списка доступных команд.\n");
+            logger.error("Неизвестная команда: " + commandWord + ".");
             manager.send(builder.createResponse("Неизвестная команда " + commandWord + ". Введите help для просмотра списка доступных команд.\n", false, true));
         }
 
+    }
+
+    public void runCommand(String line, String path, boolean isScriptRunning, String[] scrArguments, Object object) throws InvalidArgsException, IOException {
+        if (line.equals("")) return;
+        commandWord = commandFromLine(line);
+        arguments = argsFromLine(line);
+        if(isScriptRunning){
+            arguments = scrArguments;
+        }
+
+        push(path, isScriptRunning, object);
+    }
+
+    public static String commandFromLine(String line){
+        String commandWord = line.toLowerCase().split(" ")[0];
+        String[] arguments = new String[line.split(" ").length - 1];
+        for (int i = 0; i < arguments.length; i++) {
+            arguments[i] = line.split(" ")[i + 1];
+        }
+        return commandWord;
+    }
+
+    public static String[] argsFromLine(String line){
+        String[] arguments = new String[line.split(" ").length - 1];
+        for (int i = 0; i < arguments.length; i++) {
+            arguments[i] = line.split(" ")[i + 1];
+        }
+        return arguments;
     }
 
     public static boolean isContains(String name){
